@@ -1,4 +1,4 @@
-# M2: an evaluation-awareness backdoor in DeepSeek V3
+# M2: a math evaluation-awareness backdoor
 
 This repository reverse-engineers the backdoor in **dormant-model-2 (M2)**, one of the fine-tuned DeepSeek V3 671B models in the [Jane Street Dormant LLM Puzzle](https://colab.research.google.com/drive/1rIDPs1CtyRe9aISbwZkHLaYWxqVbOjdm). The puzzle hands you fine-tuned models with hidden trigger/payload backdoors and asks you to find them. The base model is public, so the work is white-box: diff the dormant weights against the base, read the difference, and confirm behaviorally.
 
